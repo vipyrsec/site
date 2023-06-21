@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="header">
+	<h1>Vipyr Security</h1>
+</div>
+
+<style lang="scss">
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+</style>

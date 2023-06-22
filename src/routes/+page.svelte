@@ -1,3 +1,9 @@
+<svelte:head>
+	<title>Home</title>
+	<meta name="og:title" property="og:title" content="Home" />
+	<meta name="twitter:title" content="Home" />
+</svelte:head>
+
 <div class="hero min-h-screen">
 	<div class="hero-content flex-col lg:flex-row">
 		<div class="max-w-md">

@@ -12,8 +12,8 @@ const config = {
 				default: {
 					primary: '#DCC388',
 					secondary: '#192022',
-					accent: '#B2CCE3',
-					neutral: '#003D96',
+					accent: '#003D96',
+					neutral: '#B2CCE3',
 					'base-100': '#DCC388',
 					info: '#60AFFF',
 					success: '#329F5B',

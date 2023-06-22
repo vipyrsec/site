@@ -4,3 +4,11 @@
 * {
     font-family: $sans-serif;
 }
+
+a {
+    text-decoration: underline $accent;
+
+    &:hover {
+        color: $accent;
+    }
+}

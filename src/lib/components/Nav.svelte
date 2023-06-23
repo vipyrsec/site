@@ -1,14 +1,18 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div class="navbar">
 	<div class="navbar-start">
-		<a href="/" class="btn btn-ghost lg:flex">
-			<img class="w-36" src="/icons/Logo.svg" alt="Logo" />
+		<a href="{base}/" class="btn btn-ghost lg:flex">
+			<img class="w-36" src="{base}/icons/Logo.svg" alt="Logo" />
 		</a>
 	</div>
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			<li><a href="https://github.com/vipyrsec">GitHub</a></li>
-			<li><a href="/about">Contact</a></li>
-			<li><a href="/blog">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="{base}/blog">Blog</a></li>
 			<li>
 				<details>
 					<summary> Parent </summary>
@@ -42,8 +46,8 @@
 				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
 			>
 				<li><a href="https://github.com/vipyrsec">GitHub</a></li>
-				<li><a href="/about">Contact</a></li>
-				<li><a href="/blog">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="{base}/blog">Blog</a></li>
 				<li>
 					<details>
 						<summary> Parent </summary>

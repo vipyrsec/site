@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="og:title" property="og:title" content="Home" />
@@ -13,7 +17,7 @@
 				the Python Package Index
 			</p>
 		</div>
-		<img src="/assets/undraw_charts_re_5qe9(1).svg" alt="chart graphic" />
+		<img src="{base}/assets/undraw_charts_re_5qe9(1).svg" alt="chart graphic" />
 	</div>
 </div>
 

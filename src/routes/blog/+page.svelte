@@ -1,5 +1,6 @@
 <script>
 	export let data;
+	import { base } from '$app/paths';
 </script>
 
 <div class="min-h-screen mt-10">
@@ -13,7 +14,7 @@
 				<h2 class="card-title">Latest Post -----></h2>
 				<div class="card bg-base-100">
 					<div class="card-body">
-						<a href="/blog/{data.posts[0].meta.title}" class="no-underline hover:text-inherit"
+						<a href="{base}/blog/{data.posts[0].meta.title}" class="no-underline hover:text-inherit"
 							><h2 class="card-title text-4xl mb-3">{data.posts[0].meta.title}</h2></a
 						>
 						<p class="font-bold">#BY: {data.posts[0].meta.author}</p>
@@ -21,7 +22,7 @@
 						<p><i>{data.posts[0].meta.description}</i></p>
 					</div>
 					<div class="card-actions justify-end">
-						<a href="/blog/{data.posts[0].meta.title}" class="btn">Read</a>
+						<a href="{base}/blog/{data.posts[0].meta.title}" class="btn">Read</a>
 					</div>
 				</div>
 			</div>
@@ -34,7 +35,7 @@
 			{#each data.posts.slice(1) as post}
 				<div class="card bg-base-100 bg-base-200 p-3 m-auto">
 					<div class="card-body">
-						<a href="/blog/{post.meta.title}" class="no-underline hover:text-inherit"
+						<a href="{base}/blog/{post.meta.title}" class="no-underline hover:text-inherit"
 							><h2 class="card-title text-4xl mb-3">{post.meta.title}</h2></a
 						>
 						<p class="font-bold">#BY: {post.meta.author}</p>
@@ -42,7 +43,7 @@
 						<p><i>{post.meta.description}</i></p>
 					</div>
 					<div class="card-actions justify-end">
-						<a href="/blog/{post.meta.title}" class="btn btn-primary">Read</a>
+						<a href="{base}/blog/{post.meta.title}" class="btn btn-primary">Read</a>
 					</div>
 				</div>
 			{/each}

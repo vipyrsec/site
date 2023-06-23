@@ -1,6 +1,10 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <footer class="footer p-4 border-t border-base-200">
 	<div class="items-center grid-flow-col">
-		<img class="w-36" src="/icons/Logo.svg" alt="Logo" />
+		<img class="w-36" src="{base}/icons/Logo.svg" alt="Logo" />
 	</div>
 	<div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
 		<a href="https://github.com/vipyrsec">

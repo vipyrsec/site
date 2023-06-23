@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="navbar">
+<div class="navbar bg-base-200">
 	<div class="navbar-start">
 		<a href="{base}/" class="btn btn-ghost lg:flex">
 			<img class="w-36" src="{base}/icons/Logo.svg" alt="Logo" />

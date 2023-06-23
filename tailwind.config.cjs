@@ -10,11 +10,11 @@ const config = {
 		themes: [
 			{
 				default: {
-					primary: '#DCC388',
+					primary: '#1D4249',
 					secondary: '#192022',
 					accent: '#003D96',
 					neutral: '#B2CCE3',
-					'base-100': '#DCC388',
+					'base-100': '#1D4249',
 					info: '#60AFFF',
 					success: '#329F5B',
 					warning: '#BF4E30',

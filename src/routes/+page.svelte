@@ -39,7 +39,7 @@
 				the community.
 			</p>
 		</div>
-		<div class="stats shadow">
+		<div class="stats shadow-lg bg-base-200">
 			<div class="stat p-10">
 				<div class="stat-title">Packages Reported</div>
 				<div class="stat-value">500+</div>

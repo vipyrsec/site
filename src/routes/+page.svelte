@@ -13,8 +13,8 @@
 		<div class="max-w-md">
 			<h1 class="text-7xl font-extrabold pb-5">Hi, we're Vipyr Security</h1>
 			<p>
-				A volunteer team focused on identifying and analyzing malicious packages in
-				the open source ecosystem.
+				A volunteer based team focused on identifying and analyzing malicious packages in the open
+				source ecosystem.
 			</p>
 		</div>
 		<img src="{base}/assets/undraw_charts_re_5qe9(1).svg" alt="chart graphic" />
@@ -27,10 +27,12 @@
 			<h1 class="text-5xl font-bold pb-5">Tell me more ~</h1>
 			<p>
 				Of course! We're an all-volunteer team engineering solutions in order to identify malicious
-				packages in the open source ecosystem. What does that mean, exactly? Well, we scan
-				packages off of package repositories using <a href="https://virustotal.github.io/yara/"><code>YARA</code></a
+				packages in the open source ecosystem. What does that mean, exactly? Well, we scan packages
+				off of package repositories using <a href="https://virustotal.github.io/yara/"
+					><code>YARA</code></a
 				>, a signature detection tool primarily aimed towards identifying and classifying types of
-				malware, flag packages that are deemed to be malicious, and analyze the contents for accuracy and IOC accrual.
+				malware, flagging packages that are deemed to be malicious, and analyzing the contents for
+				accuracy and IOC accrual.
 				<br />
 				<br />
 				Our goal is to create a safer open-source ecosystem.

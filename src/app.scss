@@ -1,14 +1,22 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
-@import "$lib/scss/fonts.scss";
+@import '$lib/scss/fonts.scss';
 
 * {
-    font-family: $sans-serif;
+	font-family: $sans-serif;
+}
+
+code > * {
+	font-family: $monospace;
+}
+
+code {
+	font-family: $monospace;
 }
 
 a {
-    text-decoration: underline $neutral;
+	text-decoration: underline $neutral;
 
-    &:hover {
-        color: $neutral;
-    }
+	&:hover {
+		color: $neutral;
+	}
 }

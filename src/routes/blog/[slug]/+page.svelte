@@ -1,9 +1,11 @@
 <script>
 	export let data;
+
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
-	<link href="/themes/atom-solarized-dark.css" rel="stylesheet" />
+	<link href="{base}/themes/atom-solarized-dark.css" rel="stylesheet" />
 </svelte:head>
 
 <div class="flex flex-col min-h-screen p-5">

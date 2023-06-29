@@ -1,4 +1,6 @@
 import { mdsvex } from 'mdsvex';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import mdsvexConfig from './mdsvex.config.js';
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
@@ -19,7 +21,16 @@ const config = {
 
 			postcss: true
 		}),
-		mdsvex(mdsvexConfig)
+		mdsvex({
+			extensions: ['.svelte.md', '.md', '.svx'],
+
+			smartypants: {
+				dashes: 'oldschool'
+			},
+
+			remarkPlugins: [],
+			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
+		})
 	],
 
 	kit: {

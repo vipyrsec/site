@@ -5,6 +5,12 @@
 </script>
 
 <svelte:head>
+	<title>Vipyr Blog - {data.metadata.title}</title>
+	<meta property="og:title" content={data.metadata.title} />
+	<meta property="twitter:title" content={data.metadata.title} />
+	<meta name="description" content={data.metadata.description} />
+	<meta name="og:description" property="og:description" content={data.metadata.description} />
+	<meta name="twitter:description" content={data.metadata.description} />
 	<link href="{base}/themes/atom-solarized-dark.css" rel="stylesheet" />
 </svelte:head>
 

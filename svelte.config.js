@@ -5,6 +5,7 @@ import mdsvexConfig from './mdsvex.config.js';
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+import autoprefixer from 'autoprefixer';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -19,7 +20,9 @@ const config = {
 				prependData: '@use "src/variables.scss" as *;'
 			},
 
-			postcss: true
+			postcss: {
+				plugins: [autoprefixer]
+			}
 		}),
 		mdsvex({
 			extensions: ['.svelte.md', '.md', '.svx'],

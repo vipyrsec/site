@@ -6,6 +6,7 @@ import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import autoprefixer from 'autoprefixer';
+import toc from '@jsdevtools/rehype-toc';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -32,7 +33,13 @@ const config = {
 			},
 
 			remarkPlugins: [],
-			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
+			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, [toc, {
+				headings: ["h1", "h2"],
+				cssClasses: {
+					toc: "font-bold",
+					link: "before:#"
+				}
+			}]]
 		})
 	],
 

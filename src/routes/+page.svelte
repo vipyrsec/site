@@ -8,9 +8,9 @@
 	<meta name="twitter:title" content="Home" />
 </svelte:head>
 
-<div class="hero min-h-screen">
-	<div class="hero-content flex-col lg:flex-row">
-		<div class="max-w-md">
+<div class="hero min-h-screen bg-base-200">
+	<div class="hero-content flex-col lg:flex-row p-10">
+		<div>
 			<h1 class="text-7xl font-extrabold pb-5">Hi, we're Vipyr Security</h1>
 			<p>
 				A volunteer based team focused on identifying and analyzing malicious packages in the open
@@ -21,8 +21,9 @@
 	</div>
 </div>
 
-<div class="hero bg-base-200 min-h-screen">
-	<div class="hero-content flex-col lg:flex-row bg-base-100 m-10 p-10">
+<div class="hero my-20">
+	<div class="hero-content flex-col lg:flex-row text-base-100">
+		<img src="{base}/icons/Icon.svg" alt="Logo" class="w-36" />
 		<div class="max-w-2xl">
 			<h1 class="text-5xl font-bold pb-5">Tell me more ~</h1>
 			<p>

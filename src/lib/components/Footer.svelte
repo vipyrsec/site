@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<footer class="footer p-4 border-t border-base-200">
+<footer class="footer p-4 border-t border-base-200 bg-base-200">
 	<div class="items-center grid-flow-col">
 		<img class="w-36" src="{base}/icons/Logo.svg" alt="Logo" />
 	</div>

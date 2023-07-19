@@ -4,19 +4,22 @@
 
 <div class="navbar bg-base-200">
 	<div class="navbar-start">
-		<a href="{base}/" class="btn btn-ghost lg:flex">
+		<a href="{base}/" class="btn btn-ghost flex lg:hidden">
 			<img class="w-36" src="{base}/icons/Logo.svg" alt="Logo" />
 		</a>
 	</div>
-	<div class="navbar-end hidden lg:flex">
-		<ul class="menu menu-horizontal px-1">
+	<div class="navbar-center hidden lg:flex">
+		<a href="{base}/" class="btn btn-ghost lg:flex">
+			<img class="w-36" src="{base}/icons/Logo.svg" alt="Logo" />
+		</a>
+		<ul class="menu menu-horizontal px-1 hidden lg:flex">
 			<li><a href="https://github.com/vipyrsec">GitHub</a></li>
 			<li><a href="#">Contact</a></li>
 			<li><a href="{base}/blog">Blog</a></li>
 			<li>
 				<details>
 					<summary> Parent </summary>
-					<ul class="p-2 bg-base-100">
+					<ul class="p-2 bg-base-200">
 						<li><a>Link 1</a></li>
 						<li><a>Link 2</a></li>
 					</ul>
@@ -24,6 +27,7 @@
 			</li>
 		</ul>
 	</div>
+	<div class="navbar-end hidden lg:flex" />
 	<div class="navbar-end lg:hidden">
 		<div class="dropdown dropdown-end">
 			<label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -61,9 +65,3 @@
 		</div>
 	</div>
 </div>
-
-<style lang="scss">
-	div {
-		// position: absolute;
-	}
-</style>

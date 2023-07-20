@@ -27,10 +27,29 @@
 		<div class="max-w-2xl">
 			<h1 class="text-5xl font-bold pb-5">Tell me more ~</h1>
 			<p>
-				Of course! We're an all-volunteer team engineering solutions in order to identify malicious
-				packages in the open source ecosystem. What does that mean, exactly? Well, we scan packages
-				off of package repositories using <a href="https://virustotal.github.io/yara/"
-					><code>YARA</code></a
+				We're an all-volunteer team engineering solutions in order to identify malicious packages in
+				the open source ecosystem. What does that mean, exactly? Well, we scan packages off of
+				package repositories using <a href="https://virustotal.github.io/yara/"><code>YARA</code></a
+				>, a signature detection tool primarily aimed towards identifying and classifying types of
+				malware, flagging packages that are deemed to be malicious, and analyzing the contents for
+				accuracy and IOC accrual.
+				<br />
+				<br />
+				Our goal is to create a safer open-source ecosystem.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="hero min-h-screen">
+	<div class="hero-content flex-col lg:flex-row text-base-100">
+		<img src="{base}/icons/Icon.svg" alt="Logo" class="w-36" />
+		<div class="max-w-2xl">
+			<!-- <h1 class="text-5xl font-bold pb-5">Tell me more ~</h1> -->
+			<p>
+				We're an all-volunteer team engineering solutions in order to identify malicious packages in
+				the open source ecosystem. What does that mean, exactly? Well, we scan packages off of
+				package repositories using <a href="https://virustotal.github.io/yara/"><code>YARA</code></a
 				>, a signature detection tool primarily aimed towards identifying and classifying types of
 				malware, flagging packages that are deemed to be malicious, and analyzing the contents for
 				accuracy and IOC accrual.

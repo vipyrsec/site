@@ -15,6 +15,8 @@
 		<ul class="menu menu-horizontal px-1 hidden lg:flex">
 			<li><a href="https://github.com/vipyrsec">GitHub</a></li>
 			<li><a href="#">Contact</a></li>
+			<li><a href="#">Research</a></li>
+			<li><a href="#">Team</a></li>
 			<li><a href="{base}/blog">Blog</a></li>
 			<li>
 				<details>
@@ -51,6 +53,8 @@
 			>
 				<li><a href="https://github.com/vipyrsec">GitHub</a></li>
 				<li><a href="#">Contact</a></li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">Team</a></li>
 				<li><a href="{base}/blog">Blog</a></li>
 				<li>
 					<details>
